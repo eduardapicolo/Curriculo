@@ -27,53 +27,25 @@ def navegar(tela_atual):
         escolha = int(input('Escolha uma opção: '))
         if escolha == 1:
             print ('Você está na tela de inserção de funcionário')
-            voltar = str(input('Deseja voltar à tela inicial? \n[SIM ou NÃO] \n ')).lower()
-            if voltar == 'sim':
-                tela_atual = 'inicial'
-            elif voltar == 'nao':
-                tela_atual = 'inserir'
+            tela_atual = 'inserir'
         elif escolha == 2:
             print ('Você está na tela de remoção de funcionários')
-            voltar = str(input('Deseja voltar à tela inicial? \n[SIM ou NÃO] \n ')).lower()
-            if voltar == 'sim':
-                tela_atual = 'inicial'
-            elif voltar == 'nao':
-                tela_atual = 'remover'
+            tela_atual = 'remover'
         elif escolha == 3:
             print ('Você está na tela de determinar a folha de pagamento de um funcionário')
-            voltar = str(input('Deseja voltar à tela inicial? \n[SIM ou NÃO] \n ')).lower()
-            if voltar == 'sim':
-                tela_atual = 'inicial'
-            elif voltar == 'nao':
-                tela_atual = 'pagamento'
+            tela_atual = 'pagamento'
         elif escolha == 4:
             print ('Você está na tela de relatório com salário bruto e salário líquido de todos os funcionários')
-            voltar = str(input('Deseja voltar à tela inicial? \n[SIM ou NÃO] \n ')).lower()
-            if voltar == 'sim':
-                tela_atual = 'inicial'
-            elif voltar == 'nao':
-                tela_atual = 'relatorio'
+            tela_atual = 'relatorio'
         elif escolha == 5:
             print ('Você está na tela com os dados do funcionário com o maior salário líquido')
-            voltar = str(input('Deseja voltar à tela inicial? \n[SIM ou NÃO] \n ')).lower()
-            if voltar == 'sim':
-                tela_atual = 'inicial'
-            elif voltar == 'nao':
-                tela_atual = 'maior salario'
+            tela_atual = 'maior salario'
         elif escolha == 6:
             print ('Você está na tela com os dados do funcionário com o maior número de faltas')
-            voltar = str(input('Deseja voltar à tela inicial? \n[SIM ou NÃO] \n ')).lower()
-            if voltar == 'sim':
-                tela_atual = 'inicial'
-            elif voltar == 'nao':
-                tela_atual = 'maior faltas'
+            tela_atual = 'maior faltas'
         elif escolha == 7:
             print ('Você está na tela de encerramento')
-            voltar = str(input('Deseja voltar à tela inicial? \n[SIM ou NÃO] \n ')).lower()
-            if voltar == 'sim':
-                tela_atual = 'inicial'
-            elif voltar == 'nao':
-                tela_atual = 'encerrar'
+            tela_atual = 'encerrar'
         else:
             print("Opção inválida. Por favor, escolha novamente.")
 
