@@ -9,7 +9,7 @@ Tenho interesse em desenvolvimento web front-end , desenvolvimento mobile, etc. 
 
 ## Estrutura do Repositório
 
-- [**Currículo.pdf**](): Versão em PDF do meu currículo.
+- [**Currículo.pdf**](Eduarda Picolo Barboza.pdf): Versão em PDF do meu currículo.
 - **Códigos.Python** : meus códigos em python.
 - **Códigos.C++** : Meus códigos em c++.
 - **Códigos.CodeInBlocks** : Meus apps do AppInventor.
