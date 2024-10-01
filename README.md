@@ -19,7 +19,8 @@ Tenho interesse em desenvolvimento web front-end , desenvolvimento mobile, etc. 
 
 - Python
 - C++
-- Code in Blocks APPInventor 
+- Code in Blocks APPInventor
+- Integração Python com SQLDeveloper 
 
 ---
 
